@@ -1,0 +1,6 @@
+.idea
+log
+config.yml
+/vendor/
+#go.mod
+go.sum
