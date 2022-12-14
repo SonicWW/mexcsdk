@@ -1,4 +1,4 @@
-module mexc-sdk/mexcsdk
+module github.com/SonicWW/mexcsdk
 
 go 1.16
 
