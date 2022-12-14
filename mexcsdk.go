@@ -2,7 +2,7 @@
 package mexcsdk
 
 import (
-	_init_ "mexc-sdk/mexcsdk/jsii"
+	_init_ "github.com/SonicWW/mexcsdk/jsii"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 )
@@ -28,7 +28,6 @@ func (j *jsiiProxy_Base) Config() interface{} {
 	)
 	return returns
 }
-
 
 func NewBase(apiKey *string, apiSecret *string) Base {
 	_init_.Initialize()
@@ -122,7 +121,6 @@ func (j *jsiiProxy_Common) Config() interface{} {
 	)
 	return returns
 }
-
 
 func NewCommon(apiKey *string, apiSecret *string) Common {
 	_init_.Initialize()
@@ -385,7 +383,6 @@ func (j *jsiiProxy_Market) Config() interface{} {
 	return returns
 }
 
-
 func NewMarket(apiKey *string, apiSecret *string) Market {
 	_init_.Initialize()
 
@@ -629,7 +626,6 @@ func (j *jsiiProxy_Spot) Config() interface{} {
 	)
 	return returns
 }
-
 
 func NewSpot(apiKey *string, apiSecret *string) Spot {
 	_init_.Initialize()
@@ -1029,7 +1025,6 @@ func (j *jsiiProxy_Trade) Config() interface{} {
 	return returns
 }
 
-
 func NewTrade(apiKey *string, apiSecret *string) Trade {
 	_init_.Initialize()
 
@@ -1421,7 +1416,6 @@ func (j *jsiiProxy_UserData) Config() interface{} {
 	return returns
 }
 
-
 func NewUserData(apiKey *string, apiSecret *string) UserData {
 	_init_.Initialize()
 
@@ -1677,4 +1671,3 @@ func (u *jsiiProxy_UserData) Trades(symbol *string, options interface{}) interfa
 
 	return returns
 }
-
